@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        StringBuilder B = new StringBuilder(A);
+        String Breversed=B.reverse().toString();
+        if(A.equalsIgnoreCase(Breversed))
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+    }
+}
